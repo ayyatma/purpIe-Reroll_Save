@@ -1,5 +1,6 @@
 ---@meta _
 purpIe_RerollSave = purpIe_RerollSave or {}
+purpIe_RerollSave.name = "purpIe-Reroll_Save"
 
 ---@diagnostic disable-next-line: undefined-global
 local mods = rom.mods
@@ -33,18 +34,20 @@ public.config = config
 import_as_fallback(rom.game)
 
 local function on_ready()
-    if config.Enabled == false then
-        return
-    end
+    -- if config.Enabled == false then
+    --     return
+    -- end
 
-    import("reroll_save.lua")
+    import("ready.lua")
 
 end
 
 local function on_reload()
-    if config.Enabled == false then
-        return
-    end
+    -- if config.Enabled == false then
+    --     return
+    -- end
+
+    import("reroll_save.lua")
 end
 
 local loader = reload.auto_single()

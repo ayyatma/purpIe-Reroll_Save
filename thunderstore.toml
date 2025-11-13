@@ -5,8 +5,8 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "purpIe"
 name = "Reroll_Save"
-versionNumber = "0.0.1"
-description = "Make the reroll seed button ("Fate Altered") saves the game."
+versionNumber = "1.0.0"
+description = "Make the reroll seed button ('Fate Altered') saves the game."
 websiteUrl = "https://github.com/ayyatma/purpIe-Reroll_Save"
 containsNsfwContent = false
 
