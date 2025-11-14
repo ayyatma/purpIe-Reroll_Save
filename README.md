@@ -1,6 +1,6 @@
 # Mod name
 
-Hades II mod changing the reroll seed button to save the game
+very simple mod changithat changes the reroll seed button to save the game
 
 ## Install
 

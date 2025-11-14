@@ -34,18 +34,11 @@ public.config = config
 import_as_fallback(rom.game)
 
 local function on_ready()
-    -- if config.Enabled == false then
-    --     return
-    -- end
 
     import("ready.lua")
-
 end
 
 local function on_reload()
-    -- if config.Enabled == false then
-    --     return
-    -- end
 
     import("reroll_save.lua")
 end

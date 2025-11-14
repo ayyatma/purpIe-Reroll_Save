@@ -10,20 +10,14 @@ local function drawMenu()
 		config.Enabled = value
 	end
 
-    if config.Enabled then
-        purpIe_RerollSave.DrawUI()
-    end
+    -- if config.Enabled then
+    --     purpIe_RerollSave.DrawUI()
+    -- end
 end
 
--- rom.gui.add_imgui(function()
--- 	if rom.ImGui.Begin("RerollSave") then
--- 		drawMenu()
--- 		rom.ImGui.End()
--- 	end
--- end)
 
 rom.gui.add_to_menu_bar(function()
-	if rom.ImGui.BeginMenu("Configure") then
+	if rom.ImGui.BeginMenu("RerollSave") then
 		drawMenu()
 		rom.ImGui.EndMenu()
 	end
